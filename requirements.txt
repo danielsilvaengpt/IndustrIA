@@ -1,0 +1,10 @@
+fastapi
+Groq
+openai
+psycopg2-binary
+python-dotenv
+PyMuPDF
+sentence-transformers
+tiktoken
+uvicorn
+numpy

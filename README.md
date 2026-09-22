@@ -121,7 +121,16 @@ Existe um ponto de entrada inicial em `API/api.py`. Para o executar com Uvicorn:
 uvicorn API.api:app --reload
 ```
 
-O endpoint actual `/` é apenas um ponto de verificação e será expandido para receber perguntas e devolver respostas RAG.
+Endpoints disponíveis:
+
+- `GET /` — verifica se a API está disponível;
+- `GET /search_query?search_query=...&k=5` — pesquisa os manuais e devolve uma resposta gerada com base no contexto recuperado.
+
+Exemplo:
+
+```text
+http://127.0.0.1:8000/search_query?search_query=What%20safety%20procedures%20are%20recommended%20for%20heavy%20fuel%20oil%3F&k=5
+```
 
 ## Notas importantes
 

@@ -147,6 +147,12 @@ http://127.0.0.1:8000/search_query?search_query=What%20safety%20procedures%20are
 - adicionar testes automatizados para ingestão, retrieval e prompts;
 - incluir histórico de manutenção como fonte adicional;
 - preparar execução com Docker para simplificar o PostgreSQL e o `pgvector`.
+- Melhorar a performance do RAG
+- Construir Interface em Python
+
+## IndustrIA v2
+- Separação por Maquina (Documentos , reparacoes)
+- Atualização para corresponder a esta V2
 
 ## Licença
 

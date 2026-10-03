@@ -1,0 +1,1685 @@
+{
+  "configuracao": {
+    "modo": "retrieval",
+    "k": 5,
+    "nota": "",
+    "data": "2026-10-03T17:51:00",
+    "modelo_gerador": "openai/gpt-oss-120b",
+    "modelo_juiz": null
+  },
+  "metricas": {
+    "geral": {
+      "hit@1": 0.5,
+      "hit@3": 0.7142857142857143,
+      "hit@5": 0.8571428571428571,
+      "mrr": 0.6273809523809524,
+      "correcao": null,
+      "fidelidade": null,
+      "keywords": null,
+      "recusa_correta": null,
+      "falsa_recusa": null,
+      "segundos_llm": null,
+      "tokens_contexto": null
+    },
+    "lingua_en": {
+      "hit@1": 0.56,
+      "hit@3": 0.8,
+      "hit@5": 0.92,
+      "mrr": 0.6946666666666667,
+      "correcao": null,
+      "fidelidade": null,
+      "keywords": null,
+      "recusa_correta": null,
+      "falsa_recusa": null,
+      "segundos_llm": null,
+      "tokens_contexto": null
+    },
+    "lingua_pt": {
+      "hit@1": 0.0,
+      "hit@3": 0.0,
+      "hit@5": 0.3333333333333333,
+      "mrr": 0.06666666666666667,
+      "correcao": null,
+      "fidelidade": null,
+      "keywords": null,
+      "recusa_correta": null,
+      "falsa_recusa": null,
+      "segundos_llm": null,
+      "tokens_contexto": null
+    }
+  },
+  "perguntas": [
+    {
+      "id": "q01",
+      "question": "What is troubleshooting according to the guide?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Troubleshooting is a systematic and logical search for the source of a problem; the systematic approach is methodical, repeatable and learnable step by step.",
+      "retrieval_ok": true,
+      "posicao": 3,
+      "top_chunks": [
+        {
+          "id": 207,
+          "similaridade": 0.631,
+          "relevante": false,
+          "inicio_do_texto": "k 8.1. note all observations and test results 8.2. note all alarms related and unrelated to the prob"
+        },
+        {
+          "id": 208,
+          "similaridade": 0.593,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        },
+        {
+          "id": 190,
+          "similaridade": 0.576,
+          "relevante": true,
+          "inicio_do_texto": "is important to note that both the hfo and haas automation are allies in this endeavor. please don't"
+        },
+        {
+          "id": 145,
+          "similaridade": 0.561,
+          "relevante": true,
+          "inicio_do_texto": "the basics of electricity, and feels comfortable working with the tools required in the electrical a"
+        },
+        {
+          "id": 191,
+          "similaridade": 0.551,
+          "relevante": false,
+          "inicio_do_texto": "c and logical search for the source of a problem a systematic approach is methodical, repeatable and"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q02",
+      "question": "How long is the certification course for candidates and where is it held?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Candidates attend a two-week course at a Haas Automation Training Center.",
+      "retrieval_ok": true,
+      "posicao": 4,
+      "top_chunks": [
+        {
+          "id": 167,
+          "similaridade": 0.469,
+          "relevante": false,
+          "inicio_do_texto": "ave a possible maximum grade of 100 points; this grade will be 40% of the final grade for week 2. th"
+        },
+        {
+          "id": 182,
+          "similaridade": 0.467,
+          "relevante": false,
+          "inicio_do_texto": "iasm. mentor the trainee • provide guidance during training, certified trainers become partners with"
+        },
+        {
+          "id": 218,
+          "similaridade": 0.463,
+          "relevante": false,
+          "inicio_do_texto": "c) 12 d) 36 - 51 - v 1.2 the new hire service engineer six month training process appendix d the fol"
+        },
+        {
+          "id": 157,
+          "similaridade": 0.456,
+          "relevante": true,
+          "inicio_do_texto": "engineer certification process overview candidates to become certified service engineers will attend"
+        },
+        {
+          "id": 179,
+          "similaridade": 0.454,
+          "relevante": false,
+          "inicio_do_texto": "l be for the trainees and help them visualize it training will only improve trainees' careers. it wi"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q03",
+      "question": "What is the minimum passing grade for certification?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "The passing grade is a minimum of 85% in both week 1 and week 2.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 167,
+          "similaridade": 0.587,
+          "relevante": true,
+          "inicio_do_texto": "ave a possible maximum grade of 100 points; this grade will be 40% of the final grade for week 2. th"
+        },
+        {
+          "id": 166,
+          "similaridade": 0.458,
+          "relevante": false,
+          "inicio_do_texto": "ure to follow and complete in a timely manner. customer service skills and professionalism • punctua"
+        },
+        {
+          "id": 164,
+          "similaridade": 0.403,
+          "relevante": false,
+          "inicio_do_texto": "clude presentations and lecture information from the haas curriculum each candidate should have stud"
+        },
+        {
+          "id": 246,
+          "similaridade": 0.402,
+          "relevante": false,
+          "inicio_do_texto": "skills gained"
+        },
+        {
+          "id": 245,
+          "similaridade": 0.398,
+          "relevante": false,
+          "inicio_do_texto": "n skills gained"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q04",
+      "question": "How is the final grade for Week 1 calculated?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Daily quizzes (averaged) account for 30% of the Week 1 final grade and the Week 1 final exam accounts for 70%.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 163,
+          "similaridade": 0.505,
+          "relevante": true,
+          "inicio_do_texto": "s on the topics covered in the previous lecture. quiz grades will be averaged for the first week, an"
+        },
+        {
+          "id": 162,
+          "similaridade": 0.396,
+          "relevante": false,
+          "inicio_do_texto": "cut the part to the drawing specifications. system presentation on the first day of class, each cand"
+        },
+        {
+          "id": 167,
+          "similaridade": 0.326,
+          "relevante": false,
+          "inicio_do_texto": "ave a possible maximum grade of 100 points; this grade will be 40% of the final grade for week 2. th"
+        },
+        {
+          "id": 166,
+          "similaridade": 0.309,
+          "relevante": false,
+          "inicio_do_texto": "ure to follow and complete in a timely manner. customer service skills and professionalism • punctua"
+        },
+        {
+          "id": 164,
+          "similaridade": 0.275,
+          "relevante": false,
+          "inicio_do_texto": "clude presentations and lecture information from the haas curriculum each candidate should have stud"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q05",
+      "question": "What is the maximum time allowed for each hands-on lab procedure?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Each procedure is timed to a maximum of three hours.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 160,
+          "similaridade": 0.419,
+          "relevante": true,
+          "inicio_do_texto": "m mechanical and electrical procedures on actual machines. all procedures will be timed to a maximum"
+        },
+        {
+          "id": 165,
+          "similaridade": 0.338,
+          "relevante": false,
+          "inicio_do_texto": "ll parts operate and interact with each other. • troubleshooting work (10 possible points, grade wei"
+        },
+        {
+          "id": 166,
+          "similaridade": 0.325,
+          "relevante": false,
+          "inicio_do_texto": "ure to follow and complete in a timely manner. customer service skills and professionalism • punctua"
+        },
+        {
+          "id": 218,
+          "similaridade": 0.319,
+          "relevante": false,
+          "inicio_do_texto": "c) 12 d) 36 - 51 - v 1.2 the new hire service engineer six month training process appendix d the fol"
+        },
+        {
+          "id": 161,
+          "similaridade": 0.311,
+          "relevante": false,
+          "inicio_do_texto": "mtc carousel replacement • vibration analysis additionally, to test the ability to follow written pr"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q06",
+      "question": "What is the half-splitting technique in troubleshooting?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Divide and verify: break the situation into smaller areas, verify that each performs as expected, and keep dividing and testing until the small problematic area is found.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 193,
+          "similaridade": 0.52,
+          "relevante": true,
+          "inicio_do_texto": "tion identify potential causes of the problem • list all of the possible causes of the problem • try"
+        },
+        {
+          "id": 204,
+          "similaridade": 0.434,
+          "relevante": false,
+          "inicio_do_texto": "ing: 3.2.1.5.1. parameters 3.2.1.5.2. settings 3.2.1.5.3. machine binary 3.2.1.5.4. pc-104 3.2.1.5.5"
+        },
+        {
+          "id": 212,
+          "similaridade": 0.415,
+          "relevante": false,
+          "inicio_do_texto": "cable, the technician can still continue to ask: • why did the cable short? because it was pinched b"
+        },
+        {
+          "id": 195,
+          "similaridade": 0.396,
+          "relevante": false,
+          "inicio_do_texto": "ing to come to a conclusion. it is important for a service engineer to have the logical thinking min"
+        },
+        {
+          "id": 208,
+          "similaridade": 0.395,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q07",
+      "question": "How many steps does the Haas troubleshooting process have?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "The Haas step-by-step troubleshooting process is a ten-step technique.",
+      "retrieval_ok": true,
+      "posicao": 3,
+      "top_chunks": [
+        {
+          "id": 208,
+          "similaridade": 0.677,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        },
+        {
+          "id": 190,
+          "similaridade": 0.673,
+          "relevante": false,
+          "inicio_do_texto": "is important to note that both the hfo and haas automation are allies in this endeavor. please don't"
+        },
+        {
+          "id": 195,
+          "similaridade": 0.65,
+          "relevante": true,
+          "inicio_do_texto": "ing to come to a conclusion. it is important for a service engineer to have the logical thinking min"
+        },
+        {
+          "id": 158,
+          "similaridade": 0.602,
+          "relevante": false,
+          "inicio_do_texto": "will include morning lectures followed by a quiz from the previous lecture. lectures will include, b"
+        },
+        {
+          "id": 165,
+          "similaridade": 0.597,
+          "relevante": false,
+          "inicio_do_texto": "ll parts operate and interact with each other. • troubleshooting work (10 possible points, grade wei"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q08",
+      "question": "What should a service engineer do about the machine's data before starting work, regardless of the problem?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Ensure the machine's data is backed up; if not, create a backup including parameters, settings, customer programs, macros, ATM (automatic tool management) and tool-pocket information when applicable.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 196,
+          "similaridade": 0.53,
+          "relevante": true,
+          "inicio_do_texto": "ust be followed when applicable, and the outline can be used both as a guide and checklist. steps ar"
+        },
+        {
+          "id": 197,
+          "similaridade": 0.443,
+          "relevante": false,
+          "inicio_do_texto": "parameters, settings, customer programs, macros, atm (automatic tool management), and tool-pocket in"
+        },
+        {
+          "id": 207,
+          "similaridade": 0.439,
+          "relevante": false,
+          "inicio_do_texto": "k 8.1. note all observations and test results 8.2. note all alarms related and unrelated to the prob"
+        },
+        {
+          "id": 191,
+          "similaridade": 0.431,
+          "relevante": false,
+          "inicio_do_texto": "c and logical search for the source of a problem a systematic approach is methodical, repeatable and"
+        },
+        {
+          "id": 208,
+          "similaridade": 0.43,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q09",
+      "question": "How should alarms be interpreted when diagnosing a machine?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Alarms are messages, not machine problems; the engineer should check the alarm history and note times and dates.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 197,
+          "similaridade": 0.564,
+          "relevante": true,
+          "inicio_do_texto": "parameters, settings, customer programs, macros, atm (automatic tool management), and tool-pocket in"
+        },
+        {
+          "id": 191,
+          "similaridade": 0.443,
+          "relevante": false,
+          "inicio_do_texto": "c and logical search for the source of a problem a systematic approach is methodical, repeatable and"
+        },
+        {
+          "id": 207,
+          "similaridade": 0.433,
+          "relevante": false,
+          "inicio_do_texto": "k 8.1. note all observations and test results 8.2. note all alarms related and unrelated to the prob"
+        },
+        {
+          "id": 212,
+          "similaridade": 0.389,
+          "relevante": false,
+          "inicio_do_texto": "cable, the technician can still continue to ask: • why did the cable short? because it was pinched b"
+        },
+        {
+          "id": 208,
+          "similaridade": 0.369,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q10",
+      "question": "What should be checked to determine whether a problem is mechanical?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Look for lack of lubrication, dented sheet metal or visible damage to spindle and tool changer arm, abnormal noises during axis travel or spindle rotation, torque of mounting screws on motors/ballscrews/turrets, binding way covers and backlash; use tools such as vibration analyzer and ball bar when applicable.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 198,
+          "similaridade": 0.528,
+          "relevante": true,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 208,
+          "similaridade": 0.408,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        },
+        {
+          "id": 212,
+          "similaridade": 0.405,
+          "relevante": false,
+          "inicio_do_texto": "cable, the technician can still continue to ask: • why did the cable short? because it was pinched b"
+        },
+        {
+          "id": 205,
+          "similaridade": 0.39,
+          "relevante": false,
+          "inicio_do_texto": "cal part related to the problematic part 4.2.4. remember that all failures have a cause, and if not "
+        },
+        {
+          "id": 145,
+          "similaridade": 0.389,
+          "relevante": false,
+          "inicio_do_texto": "the basics of electricity, and feels comfortable working with the tools required in the electrical a"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q11",
+      "question": "How do you verify the DC bus voltage on the Vector Drive and what is the tolerance?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Measure the actual DC bus voltage on terminals 2 and 3 of the Vector Drive; it must match the voltage displayed on the front panel within +/- 12 VDC.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 199,
+          "similaridade": 0.325,
+          "relevante": true,
+          "inicio_do_texto": "s, and tool turrets 3.1.2.5. binding way covers 3.1.2.6. backlash 3.1.2.7. use troubleshooting progr"
+        },
+        {
+          "id": 203,
+          "similaridade": 0.26,
+          "relevante": false,
+          "inicio_do_texto": "inside the control cabinet can be divided into: 3.2.1.2.1. servo amps 3.2.1.2.2. vector drive 3.2.1."
+        },
+        {
+          "id": 200,
+          "similaridade": 0.259,
+          "relevante": false,
+          "inicio_do_texto": "issues, check the amplifier for the problematic axis drive 3.1.3.5. when applicable and safe, swap a"
+        },
+        {
+          "id": 214,
+          "similaridade": 0.244,
+          "relevante": false,
+          "inicio_do_texto": "e to measure electric current? a. an ohmmeter b. a wave meter c. a voltmeter d. an ammeter 3. what i"
+        },
+        {
+          "id": 156,
+          "similaridade": 0.217,
+          "relevante": false,
+          "inicio_do_texto": "ork on the machine was completed successfully. • handling service-parts processes: identifying, pric"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q12",
+      "question": "How can I check whether an axis amplifier is the cause of a fault?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "When applicable and safe, swap amplifiers and see if the fault follows the amplifier.",
+      "retrieval_ok": true,
+      "posicao": 2,
+      "top_chunks": [
+        {
+          "id": 211,
+          "similaridade": 0.51,
+          "relevante": false,
+          "inicio_do_texto": "example of the “why” technique problem: the vf-2ss stopped and generated alarms 161 – x-axis drive f"
+        },
+        {
+          "id": 200,
+          "similaridade": 0.486,
+          "relevante": true,
+          "inicio_do_texto": "issues, check the amplifier for the problematic axis drive 3.1.3.5. when applicable and safe, swap a"
+        },
+        {
+          "id": 198,
+          "similaridade": 0.449,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 212,
+          "similaridade": 0.42,
+          "relevante": false,
+          "inicio_do_texto": "cable, the technician can still continue to ask: • why did the cable short? because it was pinched b"
+        },
+        {
+          "id": 204,
+          "similaridade": 0.388,
+          "relevante": true,
+          "inicio_do_texto": "ing: 3.2.1.5.1. parameters 3.2.1.5.2. settings 3.2.1.5.3. machine binary 3.2.1.5.4. pc-104 3.2.1.5.5"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q13",
+      "question": "What must the engineer do if there is un-commanded movement of an axis motor, spindle or pump?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Immediately report the symptoms to the HFO and to Haas Automation.",
+      "retrieval_ok": true,
+      "posicao": 4,
+      "top_chunks": [
+        {
+          "id": 154,
+          "similaridade": 0.435,
+          "relevante": false,
+          "inicio_do_texto": "- v 1.2 knowledge and experience regarding: • following procedures for repair and replacement haas a"
+        },
+        {
+          "id": 160,
+          "similaridade": 0.385,
+          "relevante": false,
+          "inicio_do_texto": "m mechanical and electrical procedures on actual machines. all procedures will be timed to a maximum"
+        },
+        {
+          "id": 195,
+          "similaridade": 0.367,
+          "relevante": false,
+          "inicio_do_texto": "ing to come to a conclusion. it is important for a service engineer to have the logical thinking min"
+        },
+        {
+          "id": 202,
+          "similaridade": 0.359,
+          "relevante": true,
+          "inicio_do_texto": ".10. weak foundation 3.1.4.11. unbalanced tools 3.1.4.12. raw material quality 3.1.5. if you suspect"
+        },
+        {
+          "id": 165,
+          "similaridade": 0.357,
+          "relevante": false,
+          "inicio_do_texto": "ll parts operate and interact with each other. • troubleshooting work (10 possible points, grade wei"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q14",
+      "question": "What should be done before replacing a part that seems faulty?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Check other components in the area of the faulty part for possible damage, test related components and check for loose connections; all failures have a cause, and if it is not found the problem will reoccur.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 204,
+          "similaridade": 0.531,
+          "relevante": true,
+          "inicio_do_texto": "ing: 3.2.1.5.1. parameters 3.2.1.5.2. settings 3.2.1.5.3. machine binary 3.2.1.5.4. pc-104 3.2.1.5.5"
+        },
+        {
+          "id": 205,
+          "similaridade": 0.524,
+          "relevante": false,
+          "inicio_do_texto": "cal part related to the problematic part 4.2.4. remember that all failures have a cause, and if not "
+        },
+        {
+          "id": 198,
+          "similaridade": 0.44,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 208,
+          "similaridade": 0.434,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        },
+        {
+          "id": 212,
+          "similaridade": 0.408,
+          "relevante": false,
+          "inicio_do_texto": "cable, the technician can still continue to ask: • why did the cable short? because it was pinched b"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q15",
+      "question": "What are the types of causes defined in the guide?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "A direct cause directly resulted in an event; a contributing cause contributes but cannot cause the event by itself; a root cause is the primary reason for an event, which if corrected would prevent recurrence.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 209,
+          "similaridade": 0.558,
+          "relevante": true,
+          "inicio_do_texto": "lemented a program that requires some parts that get replaced to be returned to the factory for fail"
+        },
+        {
+          "id": 210,
+          "similaridade": 0.504,
+          "relevante": false,
+          "inicio_do_texto": "important to find the root cause of a problem? at haas automation, we use root-cause analysis as a t"
+        },
+        {
+          "id": 198,
+          "similaridade": 0.343,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 207,
+          "similaridade": 0.341,
+          "relevante": false,
+          "inicio_do_texto": "k 8.1. note all observations and test results 8.2. note all alarms related and unrelated to the prob"
+        },
+        {
+          "id": 191,
+          "similaridade": 0.332,
+          "relevante": false,
+          "inicio_do_texto": "c and logical search for the source of a problem a systematic approach is methodical, repeatable and"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q16",
+      "question": "What is the Five WHYs rule?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "A root-cause method in which the Service Engineer repeatedly asks 'WHY' to uncover and remove layers of symptoms until the root cause is reached; some problems need fewer than five whys, others more.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 210,
+          "similaridade": 0.416,
+          "relevante": true,
+          "inicio_do_texto": "important to find the root cause of a problem? at haas automation, we use root-cause analysis as a t"
+        },
+        {
+          "id": 209,
+          "similaridade": 0.306,
+          "relevante": false,
+          "inicio_do_texto": "lemented a program that requires some parts that get replaced to be returned to the factory for fail"
+        },
+        {
+          "id": 177,
+          "similaridade": 0.296,
+          "relevante": false,
+          "inicio_do_texto": "ething more worthwhile. for example, the trainer can ask about a task, in a theoretical sense. becau"
+        },
+        {
+          "id": 176,
+          "similaridade": 0.226,
+          "relevante": false,
+          "inicio_do_texto": "ing exciting and stimulating. - 27 - v 1.2 how to influence the trainee to become the best-prepared "
+        },
+        {
+          "id": 212,
+          "similaridade": 0.215,
+          "relevante": false,
+          "inicio_do_texto": "cable, the technician can still continue to ask: • why did the cable short? because it was pinched b"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q17",
+      "question": "In the Five WHYs example with alarms 161 and 993 on the VF-2SS, what check is performed first?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Perform a resistance check on the amplifier's output as described in TM65.",
+      "retrieval_ok": true,
+      "posicao": 2,
+      "top_chunks": [
+        {
+          "id": 197,
+          "similaridade": 0.419,
+          "relevante": false,
+          "inicio_do_texto": "parameters, settings, customer programs, macros, atm (automatic tool management), and tool-pocket in"
+        },
+        {
+          "id": 211,
+          "similaridade": 0.385,
+          "relevante": true,
+          "inicio_do_texto": "example of the “why” technique problem: the vf-2ss stopped and generated alarms 161 – x-axis drive f"
+        },
+        {
+          "id": 195,
+          "similaridade": 0.384,
+          "relevante": false,
+          "inicio_do_texto": "ing to come to a conclusion. it is important for a service engineer to have the logical thinking min"
+        },
+        {
+          "id": 191,
+          "similaridade": 0.377,
+          "relevante": false,
+          "inicio_do_texto": "c and logical search for the source of a problem a systematic approach is methodical, repeatable and"
+        },
+        {
+          "id": 207,
+          "similaridade": 0.365,
+          "relevante": false,
+          "inicio_do_texto": "k 8.1. note all observations and test results 8.2. note all alarms related and unrelated to the prob"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q18",
+      "question": "Why does Haas require some replaced parts to be returned to the factory?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "For failure analysis, to find root causes, prevent recurrence and improve designs; it also showed that many returned parts have nothing wrong with them.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 208,
+          "similaridade": 0.553,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        },
+        {
+          "id": 160,
+          "similaridade": 0.509,
+          "relevante": false,
+          "inicio_do_texto": "m mechanical and electrical procedures on actual machines. all procedures will be timed to a maximum"
+        },
+        {
+          "id": 154,
+          "similaridade": 0.502,
+          "relevante": false,
+          "inicio_do_texto": "- v 1.2 knowledge and experience regarding: • following procedures for repair and replacement haas a"
+        },
+        {
+          "id": 155,
+          "similaridade": 0.498,
+          "relevante": false,
+          "inicio_do_texto": "nishaw probe, procedure included with the kit o bar feeder interface, procedure included with the ki"
+        },
+        {
+          "id": 212,
+          "similaridade": 0.473,
+          "relevante": false,
+          "inicio_do_texto": "cable, the technician can still continue to ask: • why did the cable short? because it was pinched b"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q19",
+      "question": "Which major assemblies must a candidate be able to remove and replace for certification?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "I/O PCB, SMTC arm, SMTC carousel, belt drive spindle, in-line spindle and ballscrew replacement (plus procedures such as software updates, ball bar and vibration analysis).",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 160,
+          "similaridade": 0.428,
+          "relevante": true,
+          "inicio_do_texto": "m mechanical and electrical procedures on actual machines. all procedures will be timed to a maximum"
+        },
+        {
+          "id": 159,
+          "similaridade": 0.423,
+          "relevante": false,
+          "inicio_do_texto": "gnostics • electrical diagrams • test & checks • solution • repair / verify / demo to customer / pap"
+        },
+        {
+          "id": 161,
+          "similaridade": 0.423,
+          "relevante": false,
+          "inicio_do_texto": "mtc carousel replacement • vibration analysis additionally, to test the ability to follow written pr"
+        },
+        {
+          "id": 168,
+          "similaridade": 0.407,
+          "relevante": false,
+          "inicio_do_texto": "ave a great reserve of experience and knowledge, and the ability to share their expertise with peers"
+        },
+        {
+          "id": 139,
+          "similaridade": 0.387,
+          "relevante": false,
+          "inicio_do_texto": "appropriate training technique. furthermore, the certified trainer will have a better understanding "
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q20",
+      "question": "How are mechanical, electrical and troubleshooting work weighted in the performance grade?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Each is worth 10 possible points with the grade weighted times 1.5.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 164,
+          "similaridade": 0.465,
+          "relevante": true,
+          "inicio_do_texto": "clude presentations and lecture information from the haas curriculum each candidate should have stud"
+        },
+        {
+          "id": 166,
+          "similaridade": 0.446,
+          "relevante": false,
+          "inicio_do_texto": "ure to follow and complete in a timely manner. customer service skills and professionalism • punctua"
+        },
+        {
+          "id": 145,
+          "similaridade": 0.422,
+          "relevante": false,
+          "inicio_do_texto": "the basics of electricity, and feels comfortable working with the tools required in the electrical a"
+        },
+        {
+          "id": 143,
+          "similaridade": 0.408,
+          "relevante": false,
+          "inicio_do_texto": "all of the processes involved in a cnc machine. logical thinking is very important during troublesho"
+        },
+        {
+          "id": 162,
+          "similaridade": 0.407,
+          "relevante": false,
+          "inicio_do_texto": "cut the part to the drawing specifications. system presentation on the first day of class, each cand"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q21",
+      "question": "What causes points to be deducted in the electrical troubleshooting lab?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Points are deducted for erroneous part replacement and unsafe practices; no points are credited for failing to complete the task.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 212,
+          "similaridade": 0.381,
+          "relevante": false,
+          "inicio_do_texto": "cable, the technician can still continue to ask: • why did the cable short? because it was pinched b"
+        },
+        {
+          "id": 192,
+          "similaridade": 0.368,
+          "relevante": false,
+          "inicio_do_texto": "n are listed, identify the power source for each component; what makes each component move or work? "
+        },
+        {
+          "id": 213,
+          "similaridade": 0.363,
+          "relevante": false,
+          "inicio_do_texto": "a process that involves a number of people, time and money. replacing a part that is the true root c"
+        },
+        {
+          "id": 145,
+          "similaridade": 0.355,
+          "relevante": false,
+          "inicio_do_texto": "the basics of electricity, and feels comfortable working with the tools required in the electrical a"
+        },
+        {
+          "id": 200,
+          "similaridade": 0.35,
+          "relevante": false,
+          "inicio_do_texto": "issues, check the amplifier for the problematic axis drive 3.1.3.5. when applicable and safe, swap a"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q22",
+      "question": "What are the three main learning styles described for trainers?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Auditory, visual and kinesthetic (hands-on).",
+      "retrieval_ok": true,
+      "posicao": 2,
+      "top_chunks": [
+        {
+          "id": 175,
+          "similaridade": 0.644,
+          "relevante": false,
+          "inicio_do_texto": "edgeable about the material being presented. train in skills that can be immediately applicable for "
+        },
+        {
+          "id": 172,
+          "similaridade": 0.639,
+          "relevante": true,
+          "inicio_do_texto": "es, and provide guidance when mistakes are made • for adults, training is more effective if trainees"
+        },
+        {
+          "id": 178,
+          "similaridade": 0.524,
+          "relevante": false,
+          "inicio_do_texto": "certain way towards us is entitled to a similar return action. during training, the trainer should a"
+        },
+        {
+          "id": 173,
+          "similaridade": 0.505,
+          "relevante": false,
+          "inicio_do_texto": "explanation. kinesthetic (hands-on) learners kinesthetic learners process information more efficient"
+        },
+        {
+          "id": 186,
+          "similaridade": 0.477,
+          "relevante": false,
+          "inicio_do_texto": "elf-awareness about their performance. it should reinforce good practices and be corrective. feedbac"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q23",
+      "question": "What steps are recommended to reproduce a problem reported by the customer?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Ask the operator to run the program that causes the problem, exercise the machine, run programmed and manual commands, recreate the environment and problem history, and determine the sequence of events that led to the fault.",
+      "retrieval_ok": true,
+      "posicao": 2,
+      "top_chunks": [
+        {
+          "id": 205,
+          "similaridade": 0.535,
+          "relevante": false,
+          "inicio_do_texto": "cal part related to the problematic part 4.2.4. remember that all failures have a cause, and if not "
+        },
+        {
+          "id": 197,
+          "similaridade": 0.513,
+          "relevante": true,
+          "inicio_do_texto": "parameters, settings, customer programs, macros, atm (automatic tool management), and tool-pocket in"
+        },
+        {
+          "id": 207,
+          "similaridade": 0.511,
+          "relevante": false,
+          "inicio_do_texto": "k 8.1. note all observations and test results 8.2. note all alarms related and unrelated to the prob"
+        },
+        {
+          "id": 198,
+          "similaridade": 0.441,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 196,
+          "similaridade": 0.437,
+          "relevante": false,
+          "inicio_do_texto": "ust be followed when applicable, and the outline can be used both as a guide and checklist. steps ar"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q24",
+      "question": "What should be verified after a repair to confirm it fixed the problem?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "Check that the symptom went away (the right one), that the replaced part was the root cause, that no new problems were created, allow time for intermittent problems, test the machine as a whole system and let the operator perform a test cut.",
+      "retrieval_ok": true,
+      "posicao": 1,
+      "top_chunks": [
+        {
+          "id": 206,
+          "similaridade": 0.481,
+          "relevante": true,
+          "inicio_do_texto": "torque all fasteners per factory specifications 7.4. all replacement cables must be routed as built "
+        },
+        {
+          "id": 205,
+          "similaridade": 0.478,
+          "relevante": false,
+          "inicio_do_texto": "cal part related to the problematic part 4.2.4. remember that all failures have a cause, and if not "
+        },
+        {
+          "id": 207,
+          "similaridade": 0.475,
+          "relevante": false,
+          "inicio_do_texto": "k 8.1. note all observations and test results 8.2. note all alarms related and unrelated to the prob"
+        },
+        {
+          "id": 204,
+          "similaridade": 0.475,
+          "relevante": false,
+          "inicio_do_texto": "ing: 3.2.1.5.1. parameters 3.2.1.5.2. settings 3.2.1.5.3. machine binary 3.2.1.5.4. pc-104 3.2.1.5.5"
+        },
+        {
+          "id": 208,
+          "similaridade": 0.437,
+          "relevante": false,
+          "inicio_do_texto": "oubleshooting is a skill that can be learned and most well trained technicians that have gained enou"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "q25",
+      "question": "Which tools are recommended for spindle-related and servo-related issues?",
+      "type": "answerable",
+      "lang": "en",
+      "reference_answer": "A vibration analyzer for spindle-related issues and ball bar analysis for servo (axis) related issues.",
+      "retrieval_ok": true,
+      "posicao": 5,
+      "top_chunks": [
+        {
+          "id": 198,
+          "similaridade": 0.475,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 160,
+          "similaridade": 0.417,
+          "relevante": false,
+          "inicio_do_texto": "m mechanical and electrical procedures on actual machines. all procedures will be timed to a maximum"
+        },
+        {
+          "id": 202,
+          "similaridade": 0.392,
+          "relevante": false,
+          "inicio_do_texto": ".10. weak foundation 3.1.4.11. unbalanced tools 3.1.4.12. raw material quality 3.1.5. if you suspect"
+        },
+        {
+          "id": 203,
+          "similaridade": 0.39,
+          "relevante": false,
+          "inicio_do_texto": "inside the control cabinet can be divided into: 3.2.1.2.1. servo amps 3.2.1.2.2. vector drive 3.2.1."
+        },
+        {
+          "id": 194,
+          "similaridade": 0.378,
+          "relevante": true,
+          "inicio_do_texto": "he problematic, yet smaller area. resources • use all resources available from the factory. • get fa"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "u01",
+      "question": "What safety procedures and maintenance practices are recommended for handling heavy fuel oil?",
+      "type": "unanswerable",
+      "lang": "en",
+      "reference_answer": "The answer cannot be found in the provided manuals.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 205,
+          "similaridade": 0.359,
+          "relevante": false,
+          "inicio_do_texto": "cal part related to the problematic part 4.2.4. remember that all failures have a cause, and if not "
+        },
+        {
+          "id": 196,
+          "similaridade": 0.345,
+          "relevante": false,
+          "inicio_do_texto": "ust be followed when applicable, and the outline can be used both as a guide and checklist. steps ar"
+        },
+        {
+          "id": 198,
+          "similaridade": 0.338,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 201,
+          "similaridade": 0.314,
+          "relevante": false,
+          "inicio_do_texto": "the status expected during any given operation 3.1.3.11. for problems related to the lcd display or "
+        },
+        {
+          "id": 194,
+          "similaridade": 0.288,
+          "relevante": false,
+          "inicio_do_texto": "he problematic, yet smaller area. resources • use all resources available from the factory. • get fa"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "u02",
+      "question": "What is the correct torque for a 3/8-16 bolt according to the guide?",
+      "type": "unanswerable",
+      "lang": "en",
+      "reference_answer": "The answer cannot be found in the provided manuals.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 217,
+          "similaridade": 0.54,
+          "relevante": false,
+          "inicio_do_texto": "left, slower left, same right, slower 8. if drive wheel x rotates clockwise at a speed of 10 rpm. ho"
+        },
+        {
+          "id": 216,
+          "similaridade": 0.345,
+          "relevante": false,
+          "inicio_do_texto": "- 47 - v 1.2 simple mechanical theory test 1. how much force is required to lift the weight? a) 40lb"
+        },
+        {
+          "id": 206,
+          "similaridade": 0.287,
+          "relevante": false,
+          "inicio_do_texto": "torque all fasteners per factory specifications 7.4. all replacement cables must be routed as built "
+        },
+        {
+          "id": 154,
+          "similaridade": 0.248,
+          "relevante": false,
+          "inicio_do_texto": "- v 1.2 knowledge and experience regarding: • following procedures for repair and replacement haas a"
+        },
+        {
+          "id": 199,
+          "similaridade": 0.223,
+          "relevante": false,
+          "inicio_do_texto": "s, and tool turrets 3.1.2.5. binding way covers 3.1.2.6. backlash 3.1.2.7. use troubleshooting progr"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "u03",
+      "question": "What is the recommended preventive maintenance interval for the spindle lubrication system?",
+      "type": "unanswerable",
+      "lang": "en",
+      "reference_answer": "The answer cannot be found in the provided manuals.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 160,
+          "similaridade": 0.477,
+          "relevante": false,
+          "inicio_do_texto": "m mechanical and electrical procedures on actual machines. all procedures will be timed to a maximum"
+        },
+        {
+          "id": 198,
+          "similaridade": 0.474,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 205,
+          "similaridade": 0.428,
+          "relevante": false,
+          "inicio_do_texto": "cal part related to the problematic part 4.2.4. remember that all failures have a cause, and if not "
+        },
+        {
+          "id": 196,
+          "similaridade": 0.394,
+          "relevante": false,
+          "inicio_do_texto": "ust be followed when applicable, and the outline can be used both as a guide and checklist. steps ar"
+        },
+        {
+          "id": 218,
+          "similaridade": 0.374,
+          "relevante": false,
+          "inicio_do_texto": "c) 12 d) 36 - 51 - v 1.2 the new hire service engineer six month training process appendix d the fol"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "u04",
+      "question": "What is the part number of the I/O PCB for the VF-2SS?",
+      "type": "unanswerable",
+      "lang": "en",
+      "reference_answer": "The answer cannot be found in the provided manuals.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 155,
+          "similaridade": 0.301,
+          "relevante": false,
+          "inicio_do_texto": "nishaw probe, procedure included with the kit o bar feeder interface, procedure included with the ki"
+        },
+        {
+          "id": 239,
+          "similaridade": 0.261,
+          "relevante": false,
+          "inicio_do_texto": "nee on skills gained"
+        },
+        {
+          "id": 200,
+          "similaridade": 0.26,
+          "relevante": false,
+          "inicio_do_texto": "issues, check the amplifier for the problematic axis drive 3.1.3.5. when applicable and safe, swap a"
+        },
+        {
+          "id": 238,
+          "similaridade": 0.26,
+          "relevante": false,
+          "inicio_do_texto": "inee on skills gained"
+        },
+        {
+          "id": 269,
+          "similaridade": 0.259,
+          "relevante": false,
+          "inicio_do_texto": ""
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "u05",
+      "question": "What coolant type and concentration should be used in a Haas vertical mill?",
+      "type": "unanswerable",
+      "lang": "en",
+      "reference_answer": "The answer cannot be found in the provided manuals.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 154,
+          "similaridade": 0.446,
+          "relevante": false,
+          "inicio_do_texto": "- v 1.2 knowledge and experience regarding: • following procedures for repair and replacement haas a"
+        },
+        {
+          "id": 164,
+          "similaridade": 0.407,
+          "relevante": false,
+          "inicio_do_texto": "clude presentations and lecture information from the haas curriculum each candidate should have stud"
+        },
+        {
+          "id": 158,
+          "similaridade": 0.354,
+          "relevante": false,
+          "inicio_do_texto": "will include morning lectures followed by a quiz from the previous lecture. lectures will include, b"
+        },
+        {
+          "id": 189,
+          "similaridade": 0.332,
+          "relevante": false,
+          "inicio_do_texto": "e running a machine? • performance evaluation the trainee should be able to perform the procedures w"
+        },
+        {
+          "id": 156,
+          "similaridade": 0.322,
+          "relevante": false,
+          "inicio_do_texto": "ork on the machine was completed successfully. • handling service-parts processes: identifying, pric"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "p01",
+      "question": "O que é troubleshooting segundo o guia?",
+      "type": "answerable",
+      "lang": "pt",
+      "reference_answer": "É uma procura sistemática e lógica da origem de um problema (a abordagem sistemática é metódica, repetível e aprendível).",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 198,
+          "similaridade": 0.257,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 197,
+          "similaridade": 0.252,
+          "relevante": false,
+          "inicio_do_texto": "parameters, settings, customer programs, macros, atm (automatic tool management), and tool-pocket in"
+        },
+        {
+          "id": 207,
+          "similaridade": 0.251,
+          "relevante": false,
+          "inicio_do_texto": "k 8.1. note all observations and test results 8.2. note all alarms related and unrelated to the prob"
+        },
+        {
+          "id": 201,
+          "similaridade": 0.25,
+          "relevante": false,
+          "inicio_do_texto": "the status expected during any given operation 3.1.3.11. for problems related to the lcd display or "
+        },
+        {
+          "id": 204,
+          "similaridade": 0.242,
+          "relevante": false,
+          "inicio_do_texto": "ing: 3.2.1.5.1. parameters 3.2.1.5.2. settings 3.2.1.5.3. machine binary 3.2.1.5.4. pc-104 3.2.1.5.5"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "p02",
+      "question": "Qual é a nota mínima para passar na certificação?",
+      "type": "answerable",
+      "lang": "pt",
+      "reference_answer": "Um mínimo de 85% em ambas as semanas (1 e 2).",
+      "retrieval_ok": true,
+      "posicao": 5,
+      "top_chunks": [
+        {
+          "id": 143,
+          "similaridade": 0.194,
+          "relevante": false,
+          "inicio_do_texto": "all of the processes involved in a cnc machine. logical thinking is very important during troublesho"
+        },
+        {
+          "id": 166,
+          "similaridade": 0.188,
+          "relevante": false,
+          "inicio_do_texto": "ure to follow and complete in a timely manner. customer service skills and professionalism • punctua"
+        },
+        {
+          "id": 179,
+          "similaridade": 0.166,
+          "relevante": false,
+          "inicio_do_texto": "l be for the trainees and help them visualize it training will only improve trainees' careers. it wi"
+        },
+        {
+          "id": 145,
+          "similaridade": 0.157,
+          "relevante": false,
+          "inicio_do_texto": "the basics of electricity, and feels comfortable working with the tools required in the electrical a"
+        },
+        {
+          "id": 167,
+          "similaridade": 0.157,
+          "relevante": true,
+          "inicio_do_texto": "ave a possible maximum grade of 100 points; this grade will be 40% of the final grade for week 2. th"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "p03",
+      "question": "Como se aplica a técnica half-splitting para encontrar uma avaria?",
+      "type": "answerable",
+      "lang": "pt",
+      "reference_answer": "Dividir a situação em áreas mais pequenas, verificar se cada uma funciona como esperado e continuar a dividir e testar até isolar a área com o problema.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 203,
+          "similaridade": 0.178,
+          "relevante": false,
+          "inicio_do_texto": "inside the control cabinet can be divided into: 3.2.1.2.1. servo amps 3.2.1.2.2. vector drive 3.2.1."
+        },
+        {
+          "id": 3,
+          "similaridade": 0.173,
+          "relevante": false,
+          "inicio_do_texto": "appropriate training technique. furthermore, the certified trainer will have a better understanding "
+        },
+        {
+          "id": 4,
+          "similaridade": 0.173,
+          "relevante": false,
+          "inicio_do_texto": "a certified trainer. the certified trainer will train new hires using a haas-developed curriculum th"
+        },
+        {
+          "id": 5,
+          "similaridade": 0.173,
+          "relevante": false,
+          "inicio_do_texto": "us improvement in all areas of our company makes this possible. improving service engineer training "
+        },
+        {
+          "id": 2,
+          "similaridade": 0.173,
+          "relevante": false,
+          "inicio_do_texto": "hfo training guide overview purpose this guide will introduce certified service engineers who have b"
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    },
+    {
+      "id": "p04",
+      "question": "Quais são os procedimentos de segurança para manusear combustível pesado (heavy fuel oil)?",
+      "type": "unanswerable",
+      "lang": "pt",
+      "reference_answer": "The answer cannot be found in the provided manuals.",
+      "retrieval_ok": true,
+      "posicao": null,
+      "top_chunks": [
+        {
+          "id": 192,
+          "similaridade": 0.165,
+          "relevante": false,
+          "inicio_do_texto": "n are listed, identify the power source for each component; what makes each component move or work? "
+        },
+        {
+          "id": 196,
+          "similaridade": 0.16,
+          "relevante": false,
+          "inicio_do_texto": "ust be followed when applicable, and the outline can be used both as a guide and checklist. steps ar"
+        },
+        {
+          "id": 203,
+          "similaridade": 0.145,
+          "relevante": false,
+          "inicio_do_texto": "inside the control cabinet can be divided into: 3.2.1.2.1. servo amps 3.2.1.2.2. vector drive 3.2.1."
+        },
+        {
+          "id": 198,
+          "similaridade": 0.138,
+          "relevante": false,
+          "inicio_do_texto": "te the environment in which the problem occurred 2.2.5. recreate the problem history 2.2.6. if it ap"
+        },
+        {
+          "id": 201,
+          "similaridade": 0.137,
+          "relevante": false,
+          "inicio_do_texto": "the status expected during any given operation 3.1.3.11. for problems related to the lcd display or "
+        }
+      ],
+      "resposta": null,
+      "segundos_llm": null,
+      "tokens_contexto": null,
+      "keywords": null,
+      "recusou": null,
+      "juiz": null,
+      "erro": null
+    }
+  ]
+}
